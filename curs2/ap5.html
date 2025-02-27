@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ap5.css">
+</head>
+<body>
+    <div style="position: relative; width: 640px; height: 320px; margin: 15px auto;">
+       <ul class="slider">
+        <li>
+            <img src="./img/Bd0zb1.webp" alt="1" />
+        </li>
+        <li>
+            <img src="./img/1200x1200bb-640x640.jpg" alt="2" />
+        </li>
+        <li>
+            <img src="./img/e36417ca761e3f40c25171f7ba3b686d--energy-balls.jpg" alt="3" />
+        </li>
+        <li>
+            <img src="./img/moray-eel-8153956_640.jpg" alt="4" />
+        </li>
+        <li>
+            <img src="./img/Bd0zb1.webp" alt="5" />
+        </li>
+       </ul>
+    </div>
+
+    <script>
+        const images = document.getElementsByTagName('img');
+        const slider = document.querySelector('.slider');
+
+        console.log('images :>>', images);
+        for (let i = 0; i <images; i++){
+            images[i].addEventListener("mouseover", function (eveniment) {
+              slider.style.animation = "none"; 
+            });
+        }
+    </script>
+</body>
+</html>
