@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #e2dd42e6;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.gallery {
+    overflow: hidden;
+    padding: 5rem 0;
+}
+.gallery .box {
+    width: 100%;
+    max-width: 11rem;
+    height: 11rem;
+    display: inline-block;
+    overflow: hidden;
+    margin: 1rem;
+    border: 5px solid #fff;
+    margin: 40px;
+}    
+img {
+    width: 170px;
+    height: 140px;
+    display: flex;
+}
+p {
+    font-size: 20px;
+    margin: 100px;
+    text-align: justify;
+}
